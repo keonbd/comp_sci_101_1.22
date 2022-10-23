@@ -1,0 +1,10 @@
+# Enter solution here
+import math
+user_salary = int(input('Enter Salary:'))
+print()
+print()
+print(f'Your salary is:$ {user_salary}')
+taxes = user_salary * .2
+print(f'Your tax amount is : $ {taxes}')
+net = user_salary - taxes
+print(f'Your net amount is : $ {net}')
